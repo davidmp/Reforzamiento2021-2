@@ -49,9 +49,18 @@ public class App{
         System.out.println((a<b)?"verdadero":"falso");
         System.out.println((a<=b)?"verdadero":"falso");
         System.out.println((a==b)?"verdadero":"falso");
-        System.out.println((a!=b)?"verdadero":"falso");
-
+        System.out.println((a!=b)?"verdadero":"falso"); 
+        //adicionales
+        int x=4;
+        System.out.println(--x);//3
+        System.out.println(x++);//3  --- 4        
+        System.out.println(x--);//4 ---3
         
+        System.out.println(x+=2);//5
+        System.out.println(x-=2);//3
+        System.out.println(x*=2);//6
+        System.out.println(x/=2);//3
+        System.out.println(x%=2);//1
     }
 
     public static void controlStructure() {
