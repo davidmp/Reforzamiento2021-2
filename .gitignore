@@ -3,6 +3,7 @@
 *.obj
 *.class
 .theia
+target
 
 # Compiled Dynamic libraries
 *.so
