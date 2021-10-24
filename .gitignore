@@ -1,6 +1,8 @@
 # Compiled Object files
 *.o
 *.obj
+*.class
+.theia
 
 # Compiled Dynamic libraries
 *.so
