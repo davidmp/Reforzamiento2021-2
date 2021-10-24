@@ -36,7 +36,16 @@ public class App{
        System.out.println("multiplicacion:"+(a*b)); 
        System.out.println("modulo:"+(a%b)); 
        System.out.println("Potencia:"+(Math.pow(a, b)));
+        //operadores logicos
+        int ologx=(a>b && a!=b )?1:0;
+        System.out.println(ologx);
+        int ologxx=(a>b || a==b )?1:0;
+        System.out.println(ologxx);
+        int ologxxx=!(a>b || a==b )?1:0;
+        System.out.println(ologxxx);
 
+        
+        
     }
 
     public static void controlStructure() {
