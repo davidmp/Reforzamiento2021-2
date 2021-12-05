@@ -131,4 +131,8 @@ public class App{
         }
     }
 
+    public void Prueba() {
+        System.out.println("Holas");
+    }
+
 }
